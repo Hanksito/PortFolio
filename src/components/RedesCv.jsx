@@ -13,13 +13,17 @@ const RedesCv = () => {
   return (
     <Container>
       <ContainerRedes>
-        <a href="https://github.com/Hanksito" target="_blank" rel="noopener">
+        <a
+          href="https://github.com/Hanksito"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <Img src={github} />
         </a>
         <a
           href="https://www.linkedin.com/in/developermartinbarja/"
           target="_blank"
-          rel="noopener"
+          rel="noopener noreferrer"
         >
           <Img src={linkedin} />
         </a>
