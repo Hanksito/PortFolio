@@ -10,8 +10,8 @@ import Contacto from "./components/Contacto";
 
 const Container = styled.div`
   max-width: 760px;
-  margin: 0 auto;
   padding: 0px 20px;
+  margin: 0 auto;
 `;
 
 function App() {
@@ -29,6 +29,7 @@ function App() {
   return (
     <>
       <Navbar />
+
       <Container>
         <NavbarAnchor
           scrollDown={scrollDown}

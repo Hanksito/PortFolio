@@ -8,7 +8,10 @@ const Container = styled.div`
 `;
 const ContainerRedes = styled.div`
   align-items: center;
-  justify-content: center;
+  display: flex;
+  justify-content: space-around;
+  min-width: 150px;
+  min-height: 60px;
 `;
 const Btn = styled.button`
   align-items: center;
@@ -29,6 +32,9 @@ const Btn = styled.button`
   touch-action: manipulation;
   white-space: nowrap;
   cursor: pointer;
+  :hover {
+    background-image: linear-gradient(144deg, #a837ee, #f3198d 50%);
+  }
 
   @media (min-width: 768px) {
     font-size: 24px;
@@ -38,6 +44,9 @@ const Btn = styled.button`
 const Img = styled.img`
   height: 40px;
   margin: 5px;
+  :hover {
+    height: 50px;
+  }
 `;
 const Anchor = styled.a`
   text-decoration: none;

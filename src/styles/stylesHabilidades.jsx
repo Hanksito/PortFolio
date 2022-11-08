@@ -29,8 +29,13 @@ const ContainerCo = styled.div`
   }
 `;
 const Icon = styled.img`
-  width: 70px;
-  height: 70px;
+  width: 65px;
+  height: 65px;
+  cursor: pointer;
+  :hover {
+    width: 70px;
+    height: 70px;
+  }
 `;
 const ContainerIcon = styled.div`
   display: flex;

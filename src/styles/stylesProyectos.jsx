@@ -92,9 +92,12 @@ const Btn = styled.button`
   touch-action: manipulation;
   white-space: nowrap;
   width: 100px;
-  padding: 5px;
+  padding: 10px;
   margin-bottom: 4px;
   cursor: pointer;
+  :hover {
+    background-image: linear-gradient(144deg, #a837ee, #f3198d 50%);
+  }
 `;
 const Anchor = styled.a`
   text-decoration: none;

@@ -75,7 +75,10 @@ const Btn = styled.button`
   touch-action: manipulation;
   white-space: nowrap;
   cursor: pointer;
-  margin-top: 23px;
+  margin-top: 25px;
+  :hover {
+    background-image: linear-gradient(144deg, #a837ee, #f3198d 50%);
+  }
 `;
 
 export { Btn, Textarea, Container, Input, Form, H1 };

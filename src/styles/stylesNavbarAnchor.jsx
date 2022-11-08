@@ -18,6 +18,7 @@ const Anchor = styled.a`
   :hover {
     background-color: #8f9ba8;
     transition: background 0.2s 0s ease-in-out;
+    text-transform: uppercase;
   }
 `;
 
