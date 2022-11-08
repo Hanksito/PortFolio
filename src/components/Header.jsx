@@ -22,7 +22,7 @@ const Header = () => {
             <Span>Hola, soy Martín Barja Balseiro.</Span> Comencé como la
             programación 2022 por recomendación y siempre pensé que esto no era
             para mí, pero me encanta. Actualmente,
-            <Span> me encuentro en la busca de mi primer empleo.</Span>
+            <Span> me encuentro en la bùsqueda de mi primer empleo.</Span>
           </P>
           <P>
             Soy originario de <Span>España</Span> y de momento vivo en
