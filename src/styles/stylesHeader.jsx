@@ -29,6 +29,10 @@ const Yo = styled.img`
   max-height: 100%;
   object-fit: cover;
   border-radius: 8px;
+  transition: all 0.2s;
+  :hover {
+    filter: drop-shadow(0 0 20px #5f5e5e);
+  }
 `;
 
 const Row = styled.div`

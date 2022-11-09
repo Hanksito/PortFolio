@@ -15,10 +15,11 @@ const Anchor = styled.a`
   font-weight: 300;
   border-radius: 8px;
   padding: 5px 10px;
+  transition: all 0.5s;
   :hover {
     background-color: #8f9ba8;
     transition: background 0.2s 0s ease-in-out;
-    text-transform: uppercase;
+    transform: rotate(-5deg);
   }
 `;
 
