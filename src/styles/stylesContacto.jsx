@@ -76,8 +76,10 @@ const Btn = styled.button`
   white-space: nowrap;
   cursor: pointer;
   margin-top: 25px;
+  transition: all 0.5s;
   :hover {
-    background-image: linear-gradient(144deg, #a837ee, #f3198d 50%);
+    background: linear-gradient(to right, #4fa8fb, #ff35c2);
+    transform: scale(1.2);
   }
 `;
 

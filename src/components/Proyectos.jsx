@@ -16,13 +16,13 @@ import SporterTeam from "../proyectosImg/SporterTeam.png";
 import Cotizador from "../proyectosImg/Cotizador Criptomonedas.png";
 import Planificador from "../proyectosImg/Planificador de Gastos.png";
 import BlogStarWars from "../proyectosImg/Blog Star Wars.png";
-import css from "../icons/css-3.png";
-import react from "../icons/react.png";
-import boostrap from "../icons/bootstrap.png";
-import python from "../icons/python.png";
+import css from "../icons/css-3.svg";
+import react from "../icons/react-2.svg";
+import boostrap from "../icons/bootstrap-5.svg";
+import python from "../icons/python.svg";
 import flask from "../icons/flask.png";
 import sql from "../icons/sqlA.png";
-import js from "../icons/js.png";
+import js from "../icons/javascript.svg";
 
 const Proyectos = ({ ProyectoSection }) => {
   return (
@@ -41,7 +41,7 @@ const Proyectos = ({ ProyectoSection }) => {
               <Icon src={boostrap} />
               <Icon src={css} />
               <Icon src={python} />
-              <Icon src={flask} />
+              <Icon src={flask} style={{ height: "40px" }} />
               <Icon src={sql} />
             </DivIcons>
             <Anchor

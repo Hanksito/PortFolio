@@ -6,9 +6,11 @@ const DivIcons = styled.div`
   align-items: center;
   flex-direction: row;
   margin-bottom: 2px;
+  max-height: 50px;
 `;
 const Icon = styled.img`
   width: 10%;
+  max-height: 60px;
   margin: 4px;
 `;
 const ContainerP = styled.div`
@@ -95,8 +97,10 @@ const Btn = styled.button`
   padding: 10px;
   margin-bottom: 4px;
   cursor: pointer;
+  transition: all 0.5s;
   :hover {
-    background-image: linear-gradient(144deg, #a837ee, #f3198d 50%);
+    transform: scale(1.2);
+    background: linear-gradient(to right, #4fa8fb, #ff35c2);
   }
 `;
 const Anchor = styled.a`

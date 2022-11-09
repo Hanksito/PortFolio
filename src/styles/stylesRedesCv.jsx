@@ -32,8 +32,10 @@ const Btn = styled.button`
   touch-action: manipulation;
   white-space: nowrap;
   cursor: pointer;
+  transition: all 0.3s;
   :hover {
-    background-image: linear-gradient(144deg, #a837ee, #f3198d 50%);
+    transform: scale(1.2);
+    background: linear-gradient(to right, #4fa8fb, #ff35c2);
   }
 
   @media (min-width: 768px) {
@@ -44,8 +46,10 @@ const Btn = styled.button`
 const Img = styled.img`
   height: 40px;
   margin: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
   :hover {
-    height: 50px;
+    transform: scale(1.5);
   }
 `;
 const Anchor = styled.a`

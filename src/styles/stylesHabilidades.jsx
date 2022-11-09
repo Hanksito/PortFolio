@@ -24,17 +24,17 @@ const ContainerCo = styled.div`
   justify-content: center;
   align-items: center;
   @media (min-width: 768px) {
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 `;
 const Icon = styled.img`
   width: 65px;
   height: 65px;
   cursor: pointer;
+  transition: all 0.5s;
   :hover {
-    width: 70px;
-    height: 70px;
+    transform: scale(1.2);
   }
 `;
 const ContainerIcon = styled.div`

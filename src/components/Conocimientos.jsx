@@ -6,18 +6,19 @@ import {
   ContainerCo,
   Container,
 } from "../styles/stylesHabilidades";
-import bootstrap from "../icons/bootstrap.png";
-import js from "../icons/js.png";
-import react from "../icons/react.png";
-import css from "../icons/css-3.png";
+import bootstrap from "../icons/bootstrap-5.svg";
+import js from "../icons/javascript.svg";
+import react from "../icons/react-2.svg";
+import css from "../icons/css-3.svg";
 import flask from "../icons/flask.png";
-import git from "../icons/git.png";
-import html from "../icons/html-5.png";
+import git from "../icons/git.svg";
+import html from "../icons/html-1.svg";
 import jest from "../icons/jest.jpg";
-import python from "../icons/python.png";
-import redux from "../icons/redux.png";
-import typescript from "../icons/typescript.png";
+import python from "../icons/python.svg";
+import redux from "../icons/redux.svg";
+import typescript from "../icons/typescript-2.svg";
 import sql from "../icons/sqlA.png";
+import tailwind from "../icons/tailwind.svg";
 
 const Conocimientos = ({ HabilidadeSection }) => {
   return (
@@ -71,6 +72,10 @@ const Conocimientos = ({ HabilidadeSection }) => {
         <ContainerIcon>
           <H>SQLAlquemy</H>
           <Icon src={sql} />
+        </ContainerIcon>
+        <ContainerIcon>
+          <H>Tailwind</H>
+          <Icon src={tailwind} />
         </ContainerIcon>
       </ContainerCo>
     </Container>
