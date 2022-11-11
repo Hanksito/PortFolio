@@ -13,7 +13,10 @@ const Container = styled.div`
   padding: 0px 20px;
   margin: 0 auto;
 `;
-
+const Div = styled.div`
+  background-color: #141517;
+  top: 0;
+`;
 function App() {
   const HabilidadeSection = useRef(null);
   const ProyectoSection = useRef(null);
@@ -27,7 +30,7 @@ function App() {
   };
 
   return (
-    <>
+    <Div>
       <Navbar />
 
       <Container>
@@ -43,7 +46,7 @@ function App() {
         <Proyectos ProyectoSection={ProyectoSection} />
         <Contacto ContactoSection={ContactoSection} />
       </Container>
-    </>
+    </Div>
   );
 }
 
