@@ -131,7 +131,7 @@ const Header = () => {
       </Cabecera>
       <Row>
         <Div>
-          <Yo src={yo} alt="yo" />
+          <Yo src={yo} alt="Martin Barja Balseiro" />
         </Div>
         <Div>
           <P>

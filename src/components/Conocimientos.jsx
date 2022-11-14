@@ -90,55 +90,55 @@ const Conocimientos = ({ HabilidadeSection }) => {
       <ContainerCo>
         <ContainerIcon className="skill">
           <H>JavaScript</H>
-          <Icon src={js} />
+          <Icon src={js} alt="JavaScript" />
         </ContainerIcon>
         <ContainerIcon className="skill">
           <H>Bootstrap</H>
-          <Icon src={bootstrap} />
+          <Icon src={bootstrap} alt="Bootstrap" />
         </ContainerIcon>
         <ContainerIcon className="skill">
           <H>React Js</H>
-          <Icon src={react} />
+          <Icon src={react} alt="React Js" />
         </ContainerIcon>
         <ContainerIcon className="skill">
           <H>CSS</H>
-          <Icon src={css} />
+          <Icon src={css} alt="CSS" />
         </ContainerIcon>
         <ContainerIcon className="skill">
           <H>Flask</H>
-          <Icon src={flask} />
+          <Icon src={flask} alt="Flask" />
         </ContainerIcon>
         <ContainerIcon className="skill">
           <H>Git</H>
-          <Icon src={git} />
+          <Icon src={git} alt="Control de versiones Git" />
         </ContainerIcon>
         <ContainerIcon className="skill">
           <H>Html 5</H>
-          <Icon src={html} />
+          <Icon src={html} alt="html5" />
         </ContainerIcon>
         <ContainerIcon className="skill">
           <H>Jest</H>
-          <Icon src={jest} />
+          <Icon src={jest} alt="testing with jest" />
         </ContainerIcon>
         <ContainerIcon className="skill">
           <H>Python</H>
-          <Icon src={python} />
+          <Icon src={python} alt="Python" />
         </ContainerIcon>
         <ContainerIcon className="skill">
           <H>Redux</H>
-          <Icon src={redux} />
+          <Icon src={redux} alt="Redux" />
         </ContainerIcon>
         <ContainerIcon className="skill">
           <H>TypeScript</H>
-          <Icon src={typescript} />
+          <Icon src={typescript} alt="TypeScript" />
         </ContainerIcon>
         <ContainerIcon className="skill">
           <H>SQLAlquemy</H>
-          <Icon src={sql} />
+          <Icon src={sql} alt="SQLAlquemy" />
         </ContainerIcon>
         <ContainerIcon className="skill">
           <H>Tailwind</H>
-          <Icon src={tailwind} />
+          <Icon src={tailwind} alt="Tailwind" />
         </ContainerIcon>
       </ContainerCo>
     </Container>
